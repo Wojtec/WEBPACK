@@ -1,25 +1,27 @@
-
 let number_x = 10;
 const number_y = 15;
 
 // Arrow function
+ let func = (val) => {
+     console.log("Hey im arrow " + val + ". And this is my value from num x and y: " + number_x + ", " + number_y);
 
- func  =  (val) => "Hey im arrow " + val + ". And this is my value from num x and y: " + number_x + ", " + number_y;
+ }
 
-console.log(func("function"));
 
 // Class
-
-class Person {
+ class Person {
 
     constructor(){
-        this.name = "Wojtek";
+        this.name = "wojtek";
     }
 
     //template string
     sayName(){
-        console.log('Hi, I am a ', this.name + '.');
+       console.log('Hi, I am a ' + this.name + '.');
     }
 }
-//call a method with template string
-new Person().sayName();
+
+module.exports = {
+    fun: func,
+    Person
+}

@@ -1,1 +1,7 @@
-const jquery = require('jquery');
+import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
+
+
+    $("#content").html("hello");
+
