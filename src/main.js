@@ -1,8 +1,7 @@
 const {$} = require("./module-b.js");
 const {Person,fun} = require("./module-a.js");
+import './style/main.scss';
 
-
-$("#test").html("sec-test");
-fun("wojtek");
+fun("Function");
 var test = new Person();
 test.sayName();

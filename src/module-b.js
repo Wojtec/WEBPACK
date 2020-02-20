@@ -3,5 +3,5 @@ window.jQuery = $;
 window.$ = $;
 
 
-    $("#content").html("hello");
+    $("#content").html("Sass is working");
 

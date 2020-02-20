@@ -1,0 +1,39 @@
+@import './text';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$colorRed: rgb(100, 25, 25);
+$colorBlue: blue;
+
+@mixin backG($color,$width,$height) {
+    
+    background-color: $color;
+    width: $width;
+    height: $height;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#content{
+
+    @include backG(rgb(63, 138, 148),80%,100px);
+    
+        @include fontS(55px,$colorBlue);
+
+}
+
+.test{
+    
+    @include backG(rgb(42, 133, 30),80%,100px);
+
+    p {
+        @include fontS(55px,$colorRed);
+
+    }
+
+}

@@ -1,0 +1,6 @@
+
+@mixin fontS($pixels,$color) {
+
+    font-size: $pixels;
+    color: $color;
+}
