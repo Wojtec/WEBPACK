@@ -19,3 +19,6 @@ What are the main objectives in this project?
 - Repository with code
 - README
 - Documentation about project
+
+# Author
+Wojtek Poninski
