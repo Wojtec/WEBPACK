@@ -23,5 +23,6 @@ const number_y = 15;
 
 module.exports = {
     fun: func,
-    Person
+    Person,
+    
 }

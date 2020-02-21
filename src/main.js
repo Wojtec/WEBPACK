@@ -1,7 +1,15 @@
 const {$} = require("./module-b.js");
-const {Person,fun} = require("./module-a.js");
+const {Person,fun,img8kb} = require("./module-a.js");
 import './style/main.scss';
-
+import crown from '../assets/img8.png';
+import skull from '../assets/svgimg8.svg';
+import jpg from '../assets/jgpimage.jpg';
+const img8b = document.getElementById('image');
+const svgimg = document.getElementById('imageSvg');
+const jpgimage = document.getElementById('imgJpg');
+img8b.src = crown;
+svgimg.src = skull;
+jpgimage.src = jpg;
 fun("Function");
 var test = new Person();
 test.sayName();
